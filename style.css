@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+/* font-family: 'Poppins', sans-serif; */
+}
+.logo {
+    max-width: 25%;
+    height: auto;
+    object-fit: cover;
+}
+
+.developer_image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    
+}
+
+.social-media-links .link img {
+    width: 40px;
+    height: 40px;
+}
+.home{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+.about_button{
+    color: white;
+    text-decoration: none;
+}
+.developer_photo {
+    width: 100%;
+    max-width: 23.5em;
+    height: auto;
+    border-radius: 0.8em;
+}
+.skills {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.icon {
+    font-size: 50px;
+    margin: 10px;
+}
+
+.skill-image {
+    width: 100px; 
+    height: auto;
+    margin: 10px; 
+}
+
+.education_photo{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#skills{
+    background-color: #FAF2D3;
+}
+#education{
+    background-color: #fafafa;
+}
+#about{
+    background-color: aliceblue;
+}
+#home{
+    background-color: #F9FBE7;
+}
+#project{
+    background-color: #fafeda;
+}
+#contact{
+    background-color: rgb(247, 249, 228);
+}
